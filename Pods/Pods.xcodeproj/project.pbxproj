@@ -1,0 +1,1211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0055CE8742DF57F475F630BE /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F180E0CAF7231E4A8B9CDC2 /* DDLegacyMacros.h */; };
+		0421C981F29B999F4B1A58A7 /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = A04A9D0FD1A69AD9E77F19E0 /* DDDispatchQueueLogFormatter.h */; };
+		0C24692CD83D849009C5AFF5 /* MTLModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C3753852083BC0ACFBB4494 /* MTLModel.h */; };
+		111B9BFC5BE207AB83FA4F44 /* MTLReflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D93B090DFAE349DDB03A251 /* MTLReflection.h */; };
+		118B56C2C0A6300C3E3ADC19 /* NSObject+MTLComparisonAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D211C7E72D8A1B3445E726 /* NSObject+MTLComparisonAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		13B4241D2A281EC637F04C5C /* Pods-BraveClient-DZSinglonFactory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1DCA7FF491C33168C01D4A /* Pods-BraveClient-DZSinglonFactory-dummy.m */; };
+		183D19714F8D83AC11282FF7 /* NSDictionary+MTLMappingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F001BF90F417CD381A5CD16F /* NSDictionary+MTLMappingAdditions.h */; };
+		1A52CB9CF04C0B08CF3EB9F5 /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 16913E6D3571D10C1A8B4921 /* EXTRuntimeExtensions.h */; };
+		20EB79899D15098A9FC94F96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801F6FC4948537FC29A2A0C3 /* Foundation.framework */; };
+		234AE516D5874D1BBB63713E /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D602DF7CFB4117BAAF560 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		269E1016B4E165DC3F60BD40 /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 60F400D42FA341C64E4AF080 /* DDMultiFormatter.h */; };
+		2842FC12533C2C3D4A664161 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 876B1EC3BC2826783756E570 /* DDASLLogger.h */; };
+		2CC73F081ACA1E2574BC4B92 /* MTLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5126079CE8B6CD860FF3AABE /* MTLModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2DBC0678F5737682FB230568 /* NSObject+MTLComparisonAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AC07AB1B5A3FF7CB29E22DC /* NSObject+MTLComparisonAdditions.h */; };
+		33E4E2A2F4DDE1168C3E96E0 /* MTLJSONAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 359665DFC487A17B595B617B /* MTLJSONAdapter.h */; };
+		361C72D89E9ABB03BF52F5FD /* Pods-BraveClient-DZProgrameDefines-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7AADF83F43FD5F13A8FD29 /* Pods-BraveClient-DZProgrameDefines-dummy.m */; };
+		38348EC4766FA391D284B2A7 /* NSArray+MTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5069FC44F159CB8AE7514708 /* NSArray+MTLManipulationAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3A1B7C2917E93DEF2BA17564 /* DZProgramDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 61DF721337824256677480FF /* DZProgramDefines.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		408768AD1C25C155ABC5FEE5 /* MTLJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 544D96615501235109C0D23C /* MTLJSONAdapter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		420ED8046414B89435D583BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801F6FC4948537FC29A2A0C3 /* Foundation.framework */; };
+		45573EDD98F762CD2BFAF79C /* Pods-BraveClient-Mantle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A784F79DCC56A65EA396B8F5 /* Pods-BraveClient-Mantle-dummy.m */; };
+		47ED9BAC2CF768134CEDA256 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801F6FC4948537FC29A2A0C3 /* Foundation.framework */; };
+		4FCF7096E34EA507280C9FFD /* NSDictionary+MTLJSONKeyPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E78F8311401D7901896F9 /* NSDictionary+MTLJSONKeyPath.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		55836F510C38C9C21FD4EB19 /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 08CF89F7CFEFDBB4B18B769D /* DDLogMacros.h */; };
+		56DE67664B32D1E0D08056F5 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = FB427437984F7B17D6D7EB8A /* DDTTYLogger.h */; };
+		57635FD187DEB5BE7B428C89 /* Pods-BraveClient-NSString-UrlEncode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA78A5D75AE6E696887BB454 /* Pods-BraveClient-NSString-UrlEncode-dummy.m */; };
+		595AB9073A8E5F395420E361 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D81D8AD04EE7B197655923CC /* DDFileLogger.h */; };
+		5A667E693A26282F2B3BB950 /* NSValueTransformer+MTLInversionAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2CD3FB8CA25C2BFEE3EE71 /* NSValueTransformer+MTLInversionAdditions.h */; };
+		5BA1CE49D49F6A9C6DB4AE54 /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A267B8B19F7B0B82B03C849 /* DDAssertMacros.h */; };
+		6442DCA7A7F38F58662FB144 /* NSDictionary+MTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 865DDD903014E8A0A853C535 /* NSDictionary+MTLManipulationAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6669E6E0C0FEDCCA5DBC8AE6 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E9F1C15274473D39D015D1 /* DDMultiFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		667A0BA97750C252E1A88187 /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 068F8692E16C48A7234BA9A8 /* EXTScope.h */; };
+		67DE52C46CA92CA4BD05A00B /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFF5C93D33D59EC9464A13A /* DDDispatchQueueLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6B0A56E880F49AC82B202BD4 /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = 317A21E0329A7E92B2423B44 /* DDLog+LOGV.h */; };
+		6D09352C8D95E1B4C8F7A7B1 /* Pods-BraveClient-CocoaLumberjack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5814F072C860007468812C /* Pods-BraveClient-CocoaLumberjack-dummy.m */; };
+		6DF126B70AA073B3B8175420 /* Mantle.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DB83FCC9561F38CE7A6CC5B /* Mantle.h */; };
+		6E166A42A3093FC3F8562D2E /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A5C1D03D4F1FB6413E4E6B /* DDTTYLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6E64C7E0B9EB079A06850F0C /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C770BCAD2B46FF331AA7D640 /* EXTRuntimeExtensions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7304AB738D419347DBFEECF9 /* MTLModel+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 0067ED6CFC111545BB2623AE /* MTLModel+NSCoding.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		784288FCB09CD0942417C59E /* NSError+MTLModelException.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ED6173ABD1AB6058A8762FE /* NSError+MTLModelException.h */; };
+		794EED35107230E7D02A67B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801F6FC4948537FC29A2A0C3 /* Foundation.framework */; };
+		7A171F1591823A1498E51BDE /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = EBB24E1B61951AF29E45D250 /* DDAbstractDatabaseLogger.h */; };
+		8593240F2D44A9F440A95F03 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C07253CE66D056789F65EE5 /* NSString+URLEncode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8721BC3DDCBF62887D1AB455 /* MTLModel+NSCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = F8CA7069A3478DE8095C5C3B /* MTLModel+NSCoding.h */; };
+		889F94E3FA628F79787712D8 /* NSValueTransformer+MTLPredefinedTransformerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D801018BDCCAF62D3C9D083F /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */; };
+		8FCBF6D6B2826FE8A9355290 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = D79E3A7F0EDF48DA273E1126 /* metamacros.h */; };
+		8FFF7F6F270797DBE2EBC6DA /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = DD609153129668A0554CC10F /* DDContextFilterLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		914AA63A6921386EC0F4ECF2 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 945AC5BCA07B6025D9795916 /* DDAbstractDatabaseLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		94567DCA1F3A8FD52E8BF737 /* DZSingletonFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 259C90FD1C9CB0EBEF50A1D9 /* DZSingletonFactory.h */; };
+		9995B283D136F96BE95B3E2E /* MTLValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D2818ABF34BC2F3A7EE94C8 /* MTLValueTransformer.h */; };
+		9D8F9A9926CF4FD372F9E92E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801F6FC4948537FC29A2A0C3 /* Foundation.framework */; };
+		9D9D055F6908DF46E71D828D /* MTLTransformerErrorHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = 11904B688986E2B22F33B001 /* MTLTransformerErrorHandling.h */; };
+		9DB1294F685A01D1DECE7F25 /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = A6A73A78E668DDFEB23212F4 /* EXTKeyPathCoding.h */; };
+		9E71E1C386D8BA6E2C5585AE /* NSValueTransformer+MTLInversionAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 996514C6594C30F4834E4EA2 /* NSValueTransformer+MTLInversionAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A873AA111BB12B152415396E /* NSDictionary+MTLJSONKeyPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C730576511E7906D7E5B98 /* NSDictionary+MTLJSONKeyPath.h */; };
+		AD8FDC7D52541D9A3363318D /* DZSingletonFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DD04F207E41A165EA5F111B2 /* DZSingletonFactory.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B9CA9A2217799401599028AF /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF2031D8BFF82A85EA65841 /* DDLog.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BB35A40ABDBAF290184890E9 /* NSDictionary+MTLMappingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E97F49A7BB37FE3BE754E3 /* NSDictionary+MTLMappingAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C3CAA8369E805C82201826B2 /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 32CB3F25E8E36030FB3E9181 /* DDContextFilterLogFormatter.h */; };
+		C47A5E18C58D29AE67C1D0DC /* NSError+MTLModelException.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5BCD28F30F52D37A004010 /* NSError+MTLModelException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C5F42396E351F1788EF94C90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801F6FC4948537FC29A2A0C3 /* Foundation.framework */; };
+		C7D11AF052E97CE4B3283906 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D30A943D8F93B7CF81459B /* DDASLLogCapture.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C8E25C64792BD4784B138848 /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = AD650A87E5D901716717823D /* CocoaLumberjack.h */; };
+		CB99AD385DBEE5E7461AB267 /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = 77FD2F95B043B36E01887E1D /* DDASLLogCapture.h */; };
+		CFC792E70BA443ECAF843C6C /* NSString+URLEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = 27F937BDC84C306DF3D9269A /* NSString+URLEncode.h */; };
+		D1564A431E390247E1AFC855 /* MTLTransformerErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F10E20AF6F05770FDC8804 /* MTLTransformerErrorHandling.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D17A835DEF5E5E8A1E88F3DB /* NSArray+MTLManipulationAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 07C7AD080B471E56800DD8A1 /* NSArray+MTLManipulationAdditions.h */; };
+		D2D676B6A942E6971FF19620 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = BCC11FC68F7B6764E97A06D3 /* DDLog.h */; };
+		D44A3AABCC4CFE5177E8DCCC /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 044C00F04571C632A4E89D57 /* DDASLLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D47453A7D52F996E2158F22A /* MTLReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C43DA6F369A13881CCE41FC /* MTLReflection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D532325F0D1106051D574196 /* Pods-BraveClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3DEDFA41D581F2B73F7616 /* Pods-BraveClient-dummy.m */; };
+		DB4602156B7AC956FB445319 /* NSDictionary+MTLManipulationAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C5DAC8D9E50527B4015228D /* NSDictionary+MTLManipulationAdditions.h */; };
+		ED4724A62402326A73E9C8AD /* DZProgramDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = C68A015F68B8804A52303EBC /* DZProgramDefines.h */; };
+		F63DD4CD8EFC896F5A5A914C /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 908C43043ADDD13A2043F0F8 /* EXTScope.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F6831507850413CF67D8D25F /* MTLValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = B054B66CE2B19C259355F1B0 /* MTLValueTransformer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FBC679BB3685BC67D103C1C5 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0178CD9519C84C1FABA9A622 /* DDFileLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49CC21793BB0C85A71F80E0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2824D187D5050B3B5EECD461 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBE3567CF39424295F4D2CA7;
+			remoteInfo = "Pods-BraveClient-NSString-UrlEncode";
+		};
+		51840AF370AD810987815FD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2824D187D5050B3B5EECD461 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19B77BAF9856AF24DD77F3F8;
+			remoteInfo = "Pods-BraveClient-CocoaLumberjack";
+		};
+		5A316B7C596A10856A91024C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2824D187D5050B3B5EECD461 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 326EFBD61B4C2B222952BF40;
+			remoteInfo = "Pods-BraveClient-DZSinglonFactory";
+		};
+		835C4A5F95F3E18A7101938F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2824D187D5050B3B5EECD461 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 903AC9056C7A6F3946D4D879;
+			remoteInfo = "Pods-BraveClient-DZProgrameDefines";
+		};
+		BD4AD3A0126505F7828FAFC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2824D187D5050B3B5EECD461 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05398151B8D3B62B77F8565A;
+			remoteInfo = "Pods-BraveClient-Mantle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0067ED6CFC111545BB2623AE /* MTLModel+NSCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MTLModel+NSCoding.m"; path = "Mantle/MTLModel+NSCoding.m"; sourceTree = "<group>"; };
+		0178CD9519C84C1FABA9A622 /* DDFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDFileLogger.m; path = Classes/DDFileLogger.m; sourceTree = "<group>"; };
+		044C00F04571C632A4E89D57 /* DDASLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogger.m; path = Classes/DDASLLogger.m; sourceTree = "<group>"; };
+		047247C7F4F7FFD1C0F23DDD /* Pods-BraveClient-Mantle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BraveClient-Mantle-prefix.pch"; sourceTree = "<group>"; };
+		04825BC6D859045DDE84D16F /* libPods-BraveClient-CocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BraveClient-CocoaLumberjack.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		068F8692E16C48A7234BA9A8 /* EXTScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTScope.h; path = Mantle/extobjc/EXTScope.h; sourceTree = "<group>"; };
+		07C7AD080B471E56800DD8A1 /* NSArray+MTLManipulationAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MTLManipulationAdditions.h"; path = "Mantle/NSArray+MTLManipulationAdditions.h"; sourceTree = "<group>"; };
+		08CF89F7CFEFDBB4B18B769D /* DDLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLogMacros.h; path = Classes/DDLogMacros.h; sourceTree = "<group>"; };
+		0D2818ABF34BC2F3A7EE94C8 /* MTLValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLValueTransformer.h; path = Mantle/MTLValueTransformer.h; sourceTree = "<group>"; };
+		0F180E0CAF7231E4A8B9CDC2 /* DDLegacyMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLegacyMacros.h; path = Classes/DDLegacyMacros.h; sourceTree = "<group>"; };
+		11904B688986E2B22F33B001 /* MTLTransformerErrorHandling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLTransformerErrorHandling.h; path = Mantle/MTLTransformerErrorHandling.h; sourceTree = "<group>"; };
+		16913E6D3571D10C1A8B4921 /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTRuntimeExtensions.h; path = Mantle/extobjc/EXTRuntimeExtensions.h; sourceTree = "<group>"; };
+		1756CAC3580BFEB9F8349A7B /* Pods-BraveClient-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BraveClient-acknowledgements.markdown"; sourceTree = "<group>"; };
+		18D211C7E72D8A1B3445E726 /* NSObject+MTLComparisonAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MTLComparisonAdditions.m"; path = "Mantle/NSObject+MTLComparisonAdditions.m"; sourceTree = "<group>"; };
+		195D3446161637D27D48C45A /* Pods-BraveClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BraveClient.debug.xcconfig"; sourceTree = "<group>"; };
+		1C3753852083BC0ACFBB4494 /* MTLModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLModel.h; path = Mantle/MTLModel.h; sourceTree = "<group>"; };
+		259C90FD1C9CB0EBEF50A1D9 /* DZSingletonFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZSingletonFactory.h; path = Pod/Classes/DZSingletonFactory.h; sourceTree = "<group>"; };
+		26325467288775FFDEE9B5A5 /* Pods-BraveClient-Mantle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BraveClient-Mantle.xcconfig"; sourceTree = "<group>"; };
+		27F937BDC84C306DF3D9269A /* NSString+URLEncode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncode.h"; sourceTree = "<group>"; };
+		2A267B8B19F7B0B82B03C849 /* DDAssertMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAssertMacros.h; path = Classes/DDAssertMacros.h; sourceTree = "<group>"; };
+		2A844624FE4DE03FBDA1DD16 /* Pods-BraveClient-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BraveClient-acknowledgements.plist"; sourceTree = "<group>"; };
+		2BF0F7FE9A29DB556A768735 /* Pods-BraveClient-DZProgrameDefines.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BraveClient-DZProgrameDefines.xcconfig"; sourceTree = "<group>"; };
+		317A21E0329A7E92B2423B44 /* DDLog+LOGV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDLog+LOGV.h"; path = "Classes/DDLog+LOGV.h"; sourceTree = "<group>"; };
+		32CB3F25E8E36030FB3E9181 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = Classes/Extensions/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		33D30A943D8F93B7CF81459B /* DDASLLogCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogCapture.m; path = Classes/DDASLLogCapture.m; sourceTree = "<group>"; };
+		359665DFC487A17B595B617B /* MTLJSONAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLJSONAdapter.h; path = Mantle/MTLJSONAdapter.h; sourceTree = "<group>"; };
+		38F10E20AF6F05770FDC8804 /* MTLTransformerErrorHandling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLTransformerErrorHandling.m; path = Mantle/MTLTransformerErrorHandling.m; sourceTree = "<group>"; };
+		3B6E78F8311401D7901896F9 /* NSDictionary+MTLJSONKeyPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MTLJSONKeyPath.m"; path = "Mantle/NSDictionary+MTLJSONKeyPath.m"; sourceTree = "<group>"; };
+		3F5FEB1A2A3677140F0F839E /* Pods-BraveClient-DZSinglonFactory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BraveClient-DZSinglonFactory-prefix.pch"; sourceTree = "<group>"; };
+		42C730576511E7906D7E5B98 /* NSDictionary+MTLJSONKeyPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MTLJSONKeyPath.h"; path = "Mantle/NSDictionary+MTLJSONKeyPath.h"; sourceTree = "<group>"; };
+		4AC07AB1B5A3FF7CB29E22DC /* NSObject+MTLComparisonAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MTLComparisonAdditions.h"; path = "Mantle/NSObject+MTLComparisonAdditions.h"; sourceTree = "<group>"; };
+		4F2CD3FB8CA25C2BFEE3EE71 /* NSValueTransformer+MTLInversionAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValueTransformer+MTLInversionAdditions.h"; path = "Mantle/NSValueTransformer+MTLInversionAdditions.h"; sourceTree = "<group>"; };
+		5069FC44F159CB8AE7514708 /* NSArray+MTLManipulationAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MTLManipulationAdditions.m"; path = "Mantle/NSArray+MTLManipulationAdditions.m"; sourceTree = "<group>"; };
+		5126079CE8B6CD860FF3AABE /* MTLModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLModel.m; path = Mantle/MTLModel.m; sourceTree = "<group>"; };
+		544D96615501235109C0D23C /* MTLJSONAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLJSONAdapter.m; path = Mantle/MTLJSONAdapter.m; sourceTree = "<group>"; };
+		5D93B090DFAE349DDB03A251 /* MTLReflection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLReflection.h; path = Mantle/MTLReflection.h; sourceTree = "<group>"; };
+		60F400D42FA341C64E4AF080 /* DDMultiFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDMultiFormatter.h; path = Classes/Extensions/DDMultiFormatter.h; sourceTree = "<group>"; };
+		61DF721337824256677480FF /* DZProgramDefines.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZProgramDefines.m; path = Classes/DZProgramDefines.m; sourceTree = "<group>"; };
+		62DDD915D16BD48C027DD77A /* Pods-BraveClient-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BraveClient-resources.sh"; sourceTree = "<group>"; };
+		63FC08DE082F40D18EE09E4C /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		68B05471E4196D70E19F7A33 /* libPods-BraveClient-NSString-UrlEncode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BraveClient-NSString-UrlEncode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C07253CE66D056789F65EE5 /* NSString+URLEncode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
+		6DB83FCC9561F38CE7A6CC5B /* Mantle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mantle.h; path = Mantle/Mantle.h; sourceTree = "<group>"; };
+		77FD2F95B043B36E01887E1D /* DDASLLogCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogCapture.h; path = Classes/DDASLLogCapture.h; sourceTree = "<group>"; };
+		7BD92D8A0D0FCAA7B1073C43 /* Pods-BraveClient-DZProgrameDefines-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BraveClient-DZProgrameDefines-prefix.pch"; sourceTree = "<group>"; };
+		801F6FC4948537FC29A2A0C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		865DDD903014E8A0A853C535 /* NSDictionary+MTLManipulationAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MTLManipulationAdditions.m"; path = "Mantle/NSDictionary+MTLManipulationAdditions.m"; sourceTree = "<group>"; };
+		876B1EC3BC2826783756E570 /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Classes/DDASLLogger.h; sourceTree = "<group>"; };
+		87E97F49A7BB37FE3BE754E3 /* NSDictionary+MTLMappingAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MTLMappingAdditions.m"; path = "Mantle/NSDictionary+MTLMappingAdditions.m"; sourceTree = "<group>"; };
+		8855B43F30B23C949C0DF3A2 /* Pods-BraveClient-NSString-UrlEncode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BraveClient-NSString-UrlEncode-prefix.pch"; sourceTree = "<group>"; };
+		8B933A546A056C753482162E /* libPods-BraveClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BraveClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF2031D8BFF82A85EA65841 /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = Classes/DDLog.m; sourceTree = "<group>"; };
+		8C43DA6F369A13881CCE41FC /* MTLReflection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLReflection.m; path = Mantle/MTLReflection.m; sourceTree = "<group>"; };
+		8C5DAC8D9E50527B4015228D /* NSDictionary+MTLManipulationAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MTLManipulationAdditions.h"; path = "Mantle/NSDictionary+MTLManipulationAdditions.h"; sourceTree = "<group>"; };
+		8D0F954CA45944D2E2103331 /* Pods-BraveClient-NSString-UrlEncode-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BraveClient-NSString-UrlEncode-Private.xcconfig"; sourceTree = "<group>"; };
+		908C43043ADDD13A2043F0F8 /* EXTScope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTScope.m; path = Mantle/extobjc/EXTScope.m; sourceTree = "<group>"; };
+		931859257AE8D431107FA9D8 /* libPods-BraveClient-DZProgrameDefines.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BraveClient-DZProgrameDefines.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A3999C5DA1CF86FF23072F /* Pods-BraveClient-DZSinglonFactory-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BraveClient-DZSinglonFactory-Private.xcconfig"; sourceTree = "<group>"; };
+		945AC5BCA07B6025D9795916 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDAbstractDatabaseLogger.m; path = Classes/DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		996514C6594C30F4834E4EA2 /* NSValueTransformer+MTLInversionAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValueTransformer+MTLInversionAdditions.m"; path = "Mantle/NSValueTransformer+MTLInversionAdditions.m"; sourceTree = "<group>"; };
+		9C3DEDFA41D581F2B73F7616 /* Pods-BraveClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BraveClient-dummy.m"; sourceTree = "<group>"; };
+		9ED6173ABD1AB6058A8762FE /* NSError+MTLModelException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+MTLModelException.h"; path = "Mantle/NSError+MTLModelException.h"; sourceTree = "<group>"; };
+		A04A9D0FD1A69AD9E77F19E0 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDDispatchQueueLogFormatter.h; path = Classes/Extensions/DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		A1C1398C16B4530045E36634 /* libPods-BraveClient-DZSinglonFactory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BraveClient-DZSinglonFactory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A481D5D3AC401B8BA3CB22AE /* Pods-BraveClient-DZProgrameDefines-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BraveClient-DZProgrameDefines-Private.xcconfig"; sourceTree = "<group>"; };
+		A6A73A78E668DDFEB23212F4 /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTKeyPathCoding.h; path = Mantle/extobjc/EXTKeyPathCoding.h; sourceTree = "<group>"; };
+		A784F79DCC56A65EA396B8F5 /* Pods-BraveClient-Mantle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BraveClient-Mantle-dummy.m"; sourceTree = "<group>"; };
+		AB1D602DF7CFB4117BAAF560 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValueTransformer+MTLPredefinedTransformerAdditions.m"; path = "Mantle/NSValueTransformer+MTLPredefinedTransformerAdditions.m"; sourceTree = "<group>"; };
+		AD650A87E5D901716717823D /* CocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaLumberjack.h; path = Classes/CocoaLumberjack.h; sourceTree = "<group>"; };
+		B054B66CE2B19C259355F1B0 /* MTLValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLValueTransformer.m; path = Mantle/MTLValueTransformer.m; sourceTree = "<group>"; };
+		B0E9F1C15274473D39D015D1 /* DDMultiFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDMultiFormatter.m; path = Classes/Extensions/DDMultiFormatter.m; sourceTree = "<group>"; };
+		BCC11FC68F7B6764E97A06D3 /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = Classes/DDLog.h; sourceTree = "<group>"; };
+		BE5814F072C860007468812C /* Pods-BraveClient-CocoaLumberjack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BraveClient-CocoaLumberjack-dummy.m"; sourceTree = "<group>"; };
+		C68A015F68B8804A52303EBC /* DZProgramDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZProgramDefines.h; path = Classes/DZProgramDefines.h; sourceTree = "<group>"; };
+		C770BCAD2B46FF331AA7D640 /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTRuntimeExtensions.m; path = Mantle/extobjc/EXTRuntimeExtensions.m; sourceTree = "<group>"; };
+		CA78A5D75AE6E696887BB454 /* Pods-BraveClient-NSString-UrlEncode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BraveClient-NSString-UrlEncode-dummy.m"; sourceTree = "<group>"; };
+		CB1DCA7FF491C33168C01D4A /* Pods-BraveClient-DZSinglonFactory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BraveClient-DZSinglonFactory-dummy.m"; sourceTree = "<group>"; };
+		CC5BCD28F30F52D37A004010 /* NSError+MTLModelException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+MTLModelException.m"; path = "Mantle/NSError+MTLModelException.m"; sourceTree = "<group>"; };
+		CDA91C0F1B1BD8EDB031F501 /* Pods-BraveClient-DZSinglonFactory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BraveClient-DZSinglonFactory.xcconfig"; sourceTree = "<group>"; };
+		CE7AADF83F43FD5F13A8FD29 /* Pods-BraveClient-DZProgrameDefines-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BraveClient-DZProgrameDefines-dummy.m"; sourceTree = "<group>"; };
+		D762C059F804853A6D8926A5 /* Pods-BraveClient-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BraveClient-environment.h"; sourceTree = "<group>"; };
+		D79E3A7F0EDF48DA273E1126 /* metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = metamacros.h; path = Mantle/extobjc/metamacros.h; sourceTree = "<group>"; };
+		D801018BDCCAF62D3C9D083F /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValueTransformer+MTLPredefinedTransformerAdditions.h"; path = "Mantle/NSValueTransformer+MTLPredefinedTransformerAdditions.h"; sourceTree = "<group>"; };
+		D81D8AD04EE7B197655923CC /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = Classes/DDFileLogger.h; sourceTree = "<group>"; };
+		DB1A6F093D52630C11952248 /* libPods-BraveClient-Mantle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BraveClient-Mantle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD04F207E41A165EA5F111B2 /* DZSingletonFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZSingletonFactory.m; path = Pod/Classes/DZSingletonFactory.m; sourceTree = "<group>"; };
+		DD609153129668A0554CC10F /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDContextFilterLogFormatter.m; path = Classes/Extensions/DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		DE46D07A94845B08F6261CB0 /* Pods-BraveClient-CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BraveClient-CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
+		DFFF5C93D33D59EC9464A13A /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDDispatchQueueLogFormatter.m; path = Classes/Extensions/DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		E3B702E9E15E426D0E754A89 /* Pods-BraveClient-CocoaLumberjack-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BraveClient-CocoaLumberjack-Private.xcconfig"; sourceTree = "<group>"; };
+		E7EC28132D3DD5BAF1B9DAD9 /* Pods-BraveClient-Mantle-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BraveClient-Mantle-Private.xcconfig"; sourceTree = "<group>"; };
+		EBB24E1B61951AF29E45D250 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = Classes/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		EFCA321027ED65FEB6D008B1 /* Pods-BraveClient-NSString-UrlEncode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BraveClient-NSString-UrlEncode.xcconfig"; sourceTree = "<group>"; };
+		F001BF90F417CD381A5CD16F /* NSDictionary+MTLMappingAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MTLMappingAdditions.h"; path = "Mantle/NSDictionary+MTLMappingAdditions.h"; sourceTree = "<group>"; };
+		F7A5C1D03D4F1FB6413E4E6B /* DDTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = Classes/DDTTYLogger.m; sourceTree = "<group>"; };
+		F8CA7069A3478DE8095C5C3B /* MTLModel+NSCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MTLModel+NSCoding.h"; path = "Mantle/MTLModel+NSCoding.h"; sourceTree = "<group>"; };
+		F920EC50557F18FAC6078664 /* Pods-BraveClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BraveClient.release.xcconfig"; sourceTree = "<group>"; };
+		FB427437984F7B17D6D7EB8A /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = Classes/DDTTYLogger.h; sourceTree = "<group>"; };
+		FD71A82735EAEABC1B2382F3 /* Pods-BraveClient-CocoaLumberjack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BraveClient-CocoaLumberjack.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C19184B926D7466AD88AD1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F42396E351F1788EF94C90 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4669A1E9F1E8275738C9D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D8F9A9926CF4FD372F9E92E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DD35FCFBD0D25F39137AE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420ED8046414B89435D583BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8022540A074A79DCA282368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794EED35107230E7D02A67B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA557C3A715A52A6281EEE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20EB79899D15098A9FC94F96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F7194ECE9B1C095A92CEFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47ED9BAC2CF768134CEDA256 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037442F511B852286A6BFE01 /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				0D2501F7F800A4480149BB55 /* Core */,
+				AB7932EB0848D72DCFC19E93 /* Default */,
+				2FAF20A91FE9FF0081CBA713 /* Extensions */,
+				6C1EB18512B62AF9C9938602 /* Support Files */,
+			);
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		085FB93C07DBF7BDCA37CB20 /* DZProgrameDefines */ = {
+			isa = PBXGroup;
+			children = (
+				C68A015F68B8804A52303EBC /* DZProgramDefines.h */,
+				61DF721337824256677480FF /* DZProgramDefines.m */,
+				52278E9620029F809CF6F7C4 /* Support Files */,
+			);
+			path = DZProgrameDefines;
+			sourceTree = "<group>";
+		};
+		0D2501F7F800A4480149BB55 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				77FD2F95B043B36E01887E1D /* DDASLLogCapture.h */,
+				33D30A943D8F93B7CF81459B /* DDASLLogCapture.m */,
+				876B1EC3BC2826783756E570 /* DDASLLogger.h */,
+				044C00F04571C632A4E89D57 /* DDASLLogger.m */,
+				EBB24E1B61951AF29E45D250 /* DDAbstractDatabaseLogger.h */,
+				945AC5BCA07B6025D9795916 /* DDAbstractDatabaseLogger.m */,
+				2A267B8B19F7B0B82B03C849 /* DDAssertMacros.h */,
+				D81D8AD04EE7B197655923CC /* DDFileLogger.h */,
+				0178CD9519C84C1FABA9A622 /* DDFileLogger.m */,
+				0F180E0CAF7231E4A8B9CDC2 /* DDLegacyMacros.h */,
+				BCC11FC68F7B6764E97A06D3 /* DDLog.h */,
+				8BF2031D8BFF82A85EA65841 /* DDLog.m */,
+				317A21E0329A7E92B2423B44 /* DDLog+LOGV.h */,
+				08CF89F7CFEFDBB4B18B769D /* DDLogMacros.h */,
+				FB427437984F7B17D6D7EB8A /* DDTTYLogger.h */,
+				F7A5C1D03D4F1FB6413E4E6B /* DDTTYLogger.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		2502034F5D1D43FB5F242D46 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFCA321027ED65FEB6D008B1 /* Pods-BraveClient-NSString-UrlEncode.xcconfig */,
+				8D0F954CA45944D2E2103331 /* Pods-BraveClient-NSString-UrlEncode-Private.xcconfig */,
+				CA78A5D75AE6E696887BB454 /* Pods-BraveClient-NSString-UrlEncode-dummy.m */,
+				8855B43F30B23C949C0DF3A2 /* Pods-BraveClient-NSString-UrlEncode-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-BraveClient-NSString-UrlEncode";
+			sourceTree = "<group>";
+		};
+		2C45F7FEA4AD6BF224041064 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDA91C0F1B1BD8EDB031F501 /* Pods-BraveClient-DZSinglonFactory.xcconfig */,
+				93A3999C5DA1CF86FF23072F /* Pods-BraveClient-DZSinglonFactory-Private.xcconfig */,
+				CB1DCA7FF491C33168C01D4A /* Pods-BraveClient-DZSinglonFactory-dummy.m */,
+				3F5FEB1A2A3677140F0F839E /* Pods-BraveClient-DZSinglonFactory-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-BraveClient-DZSinglonFactory";
+			sourceTree = "<group>";
+		};
+		2FAF20A91FE9FF0081CBA713 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				32CB3F25E8E36030FB3E9181 /* DDContextFilterLogFormatter.h */,
+				DD609153129668A0554CC10F /* DDContextFilterLogFormatter.m */,
+				A04A9D0FD1A69AD9E77F19E0 /* DDDispatchQueueLogFormatter.h */,
+				DFFF5C93D33D59EC9464A13A /* DDDispatchQueueLogFormatter.m */,
+				60F400D42FA341C64E4AF080 /* DDMultiFormatter.h */,
+				B0E9F1C15274473D39D015D1 /* DDMultiFormatter.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		42EA10907117F1E3F2DFD1CD /* Mantle */ = {
+			isa = PBXGroup;
+			children = (
+				359665DFC487A17B595B617B /* MTLJSONAdapter.h */,
+				544D96615501235109C0D23C /* MTLJSONAdapter.m */,
+				1C3753852083BC0ACFBB4494 /* MTLModel.h */,
+				5126079CE8B6CD860FF3AABE /* MTLModel.m */,
+				F8CA7069A3478DE8095C5C3B /* MTLModel+NSCoding.h */,
+				0067ED6CFC111545BB2623AE /* MTLModel+NSCoding.m */,
+				5D93B090DFAE349DDB03A251 /* MTLReflection.h */,
+				8C43DA6F369A13881CCE41FC /* MTLReflection.m */,
+				11904B688986E2B22F33B001 /* MTLTransformerErrorHandling.h */,
+				38F10E20AF6F05770FDC8804 /* MTLTransformerErrorHandling.m */,
+				0D2818ABF34BC2F3A7EE94C8 /* MTLValueTransformer.h */,
+				B054B66CE2B19C259355F1B0 /* MTLValueTransformer.m */,
+				6DB83FCC9561F38CE7A6CC5B /* Mantle.h */,
+				07C7AD080B471E56800DD8A1 /* NSArray+MTLManipulationAdditions.h */,
+				5069FC44F159CB8AE7514708 /* NSArray+MTLManipulationAdditions.m */,
+				42C730576511E7906D7E5B98 /* NSDictionary+MTLJSONKeyPath.h */,
+				3B6E78F8311401D7901896F9 /* NSDictionary+MTLJSONKeyPath.m */,
+				8C5DAC8D9E50527B4015228D /* NSDictionary+MTLManipulationAdditions.h */,
+				865DDD903014E8A0A853C535 /* NSDictionary+MTLManipulationAdditions.m */,
+				F001BF90F417CD381A5CD16F /* NSDictionary+MTLMappingAdditions.h */,
+				87E97F49A7BB37FE3BE754E3 /* NSDictionary+MTLMappingAdditions.m */,
+				9ED6173ABD1AB6058A8762FE /* NSError+MTLModelException.h */,
+				CC5BCD28F30F52D37A004010 /* NSError+MTLModelException.m */,
+				4AC07AB1B5A3FF7CB29E22DC /* NSObject+MTLComparisonAdditions.h */,
+				18D211C7E72D8A1B3445E726 /* NSObject+MTLComparisonAdditions.m */,
+				4F2CD3FB8CA25C2BFEE3EE71 /* NSValueTransformer+MTLInversionAdditions.h */,
+				996514C6594C30F4834E4EA2 /* NSValueTransformer+MTLInversionAdditions.m */,
+				D801018BDCCAF62D3C9D083F /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */,
+				AB1D602DF7CFB4117BAAF560 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */,
+				C0DD038488671069DD8CB41F /* Support Files */,
+				9E5938A311C2C2FD45481102 /* extobjc */,
+			);
+			path = Mantle;
+			sourceTree = "<group>";
+		};
+		4EF085FFA1075568C8D9A756 = {
+			isa = PBXGroup;
+			children = (
+				63FC08DE082F40D18EE09E4C /* Podfile */,
+				FBE1146D75556AE4ED78049B /* Frameworks */,
+				CE8A3C9F30E73898714E58AF /* Pods */,
+				AF18629B536B31C7B3D54DE5 /* Products */,
+				A96F6F13E94654604057DF75 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		52278E9620029F809CF6F7C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BF0F7FE9A29DB556A768735 /* Pods-BraveClient-DZProgrameDefines.xcconfig */,
+				A481D5D3AC401B8BA3CB22AE /* Pods-BraveClient-DZProgrameDefines-Private.xcconfig */,
+				CE7AADF83F43FD5F13A8FD29 /* Pods-BraveClient-DZProgrameDefines-dummy.m */,
+				7BD92D8A0D0FCAA7B1073C43 /* Pods-BraveClient-DZProgrameDefines-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-BraveClient-DZProgrameDefines";
+			sourceTree = "<group>";
+		};
+		6C1EB18512B62AF9C9938602 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD71A82735EAEABC1B2382F3 /* Pods-BraveClient-CocoaLumberjack.xcconfig */,
+				E3B702E9E15E426D0E754A89 /* Pods-BraveClient-CocoaLumberjack-Private.xcconfig */,
+				BE5814F072C860007468812C /* Pods-BraveClient-CocoaLumberjack-dummy.m */,
+				DE46D07A94845B08F6261CB0 /* Pods-BraveClient-CocoaLumberjack-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-BraveClient-CocoaLumberjack";
+			sourceTree = "<group>";
+		};
+		820D877DC17A951DE0C1FDAE /* DZSinglonFactory */ = {
+			isa = PBXGroup;
+			children = (
+				259C90FD1C9CB0EBEF50A1D9 /* DZSingletonFactory.h */,
+				DD04F207E41A165EA5F111B2 /* DZSingletonFactory.m */,
+				2C45F7FEA4AD6BF224041064 /* Support Files */,
+			);
+			path = DZSinglonFactory;
+			sourceTree = "<group>";
+		};
+		9E5938A311C2C2FD45481102 /* extobjc */ = {
+			isa = PBXGroup;
+			children = (
+				A6A73A78E668DDFEB23212F4 /* EXTKeyPathCoding.h */,
+				16913E6D3571D10C1A8B4921 /* EXTRuntimeExtensions.h */,
+				C770BCAD2B46FF331AA7D640 /* EXTRuntimeExtensions.m */,
+				068F8692E16C48A7234BA9A8 /* EXTScope.h */,
+				908C43043ADDD13A2043F0F8 /* EXTScope.m */,
+				D79E3A7F0EDF48DA273E1126 /* metamacros.h */,
+			);
+			name = extobjc;
+			sourceTree = "<group>";
+		};
+		A96F6F13E94654604057DF75 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC28E80227AA1DC6B7ED5EA4 /* Pods-BraveClient */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AB7932EB0848D72DCFC19E93 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				AD650A87E5D901716717823D /* CocoaLumberjack.h */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		AF18629B536B31C7B3D54DE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B933A546A056C753482162E /* libPods-BraveClient.a */,
+				04825BC6D859045DDE84D16F /* libPods-BraveClient-CocoaLumberjack.a */,
+				931859257AE8D431107FA9D8 /* libPods-BraveClient-DZProgrameDefines.a */,
+				A1C1398C16B4530045E36634 /* libPods-BraveClient-DZSinglonFactory.a */,
+				DB1A6F093D52630C11952248 /* libPods-BraveClient-Mantle.a */,
+				68B05471E4196D70E19F7A33 /* libPods-BraveClient-NSString-UrlEncode.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0DD038488671069DD8CB41F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26325467288775FFDEE9B5A5 /* Pods-BraveClient-Mantle.xcconfig */,
+				E7EC28132D3DD5BAF1B9DAD9 /* Pods-BraveClient-Mantle-Private.xcconfig */,
+				A784F79DCC56A65EA396B8F5 /* Pods-BraveClient-Mantle-dummy.m */,
+				047247C7F4F7FFD1C0F23DDD /* Pods-BraveClient-Mantle-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-BraveClient-Mantle";
+			sourceTree = "<group>";
+		};
+		C27E1EB05C88185B078F7438 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				801F6FC4948537FC29A2A0C3 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CE8A3C9F30E73898714E58AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				037442F511B852286A6BFE01 /* CocoaLumberjack */,
+				085FB93C07DBF7BDCA37CB20 /* DZProgrameDefines */,
+				820D877DC17A951DE0C1FDAE /* DZSinglonFactory */,
+				42EA10907117F1E3F2DFD1CD /* Mantle */,
+				D2170B68FD97E279B67E11F9 /* NSString-UrlEncode */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D2170B68FD97E279B67E11F9 /* NSString-UrlEncode */ = {
+			isa = PBXGroup;
+			children = (
+				27F937BDC84C306DF3D9269A /* NSString+URLEncode.h */,
+				6C07253CE66D056789F65EE5 /* NSString+URLEncode.m */,
+				2502034F5D1D43FB5F242D46 /* Support Files */,
+			);
+			path = "NSString-UrlEncode";
+			sourceTree = "<group>";
+		};
+		DC28E80227AA1DC6B7ED5EA4 /* Pods-BraveClient */ = {
+			isa = PBXGroup;
+			children = (
+				1756CAC3580BFEB9F8349A7B /* Pods-BraveClient-acknowledgements.markdown */,
+				2A844624FE4DE03FBDA1DD16 /* Pods-BraveClient-acknowledgements.plist */,
+				9C3DEDFA41D581F2B73F7616 /* Pods-BraveClient-dummy.m */,
+				D762C059F804853A6D8926A5 /* Pods-BraveClient-environment.h */,
+				62DDD915D16BD48C027DD77A /* Pods-BraveClient-resources.sh */,
+				195D3446161637D27D48C45A /* Pods-BraveClient.debug.xcconfig */,
+				F920EC50557F18FAC6078664 /* Pods-BraveClient.release.xcconfig */,
+			);
+			name = "Pods-BraveClient";
+			path = "Target Support Files/Pods-BraveClient";
+			sourceTree = "<group>";
+		};
+		FBE1146D75556AE4ED78049B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C27E1EB05C88185B078F7438 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4128792AC753BA04102ACD0C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94567DCA1F3A8FD52E8BF737 /* DZSingletonFactory.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE38070209CBA6862498B80 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E25C64792BD4784B138848 /* CocoaLumberjack.h in Headers */,
+				CB99AD385DBEE5E7461AB267 /* DDASLLogCapture.h in Headers */,
+				2842FC12533C2C3D4A664161 /* DDASLLogger.h in Headers */,
+				7A171F1591823A1498E51BDE /* DDAbstractDatabaseLogger.h in Headers */,
+				5BA1CE49D49F6A9C6DB4AE54 /* DDAssertMacros.h in Headers */,
+				C3CAA8369E805C82201826B2 /* DDContextFilterLogFormatter.h in Headers */,
+				0421C981F29B999F4B1A58A7 /* DDDispatchQueueLogFormatter.h in Headers */,
+				595AB9073A8E5F395420E361 /* DDFileLogger.h in Headers */,
+				0055CE8742DF57F475F630BE /* DDLegacyMacros.h in Headers */,
+				6B0A56E880F49AC82B202BD4 /* DDLog+LOGV.h in Headers */,
+				D2D676B6A942E6971FF19620 /* DDLog.h in Headers */,
+				55836F510C38C9C21FD4EB19 /* DDLogMacros.h in Headers */,
+				269E1016B4E165DC3F60BD40 /* DDMultiFormatter.h in Headers */,
+				56DE67664B32D1E0D08056F5 /* DDTTYLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EA63D89AC16B28ECBF07131 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4724A62402326A73E9C8AD /* DZProgramDefines.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB64AB59B8EBB7376971B8EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB1294F685A01D1DECE7F25 /* EXTKeyPathCoding.h in Headers */,
+				1A52CB9CF04C0B08CF3EB9F5 /* EXTRuntimeExtensions.h in Headers */,
+				667A0BA97750C252E1A88187 /* EXTScope.h in Headers */,
+				33E4E2A2F4DDE1168C3E96E0 /* MTLJSONAdapter.h in Headers */,
+				8721BC3DDCBF62887D1AB455 /* MTLModel+NSCoding.h in Headers */,
+				0C24692CD83D849009C5AFF5 /* MTLModel.h in Headers */,
+				111B9BFC5BE207AB83FA4F44 /* MTLReflection.h in Headers */,
+				9D9D055F6908DF46E71D828D /* MTLTransformerErrorHandling.h in Headers */,
+				9995B283D136F96BE95B3E2E /* MTLValueTransformer.h in Headers */,
+				6DF126B70AA073B3B8175420 /* Mantle.h in Headers */,
+				D17A835DEF5E5E8A1E88F3DB /* NSArray+MTLManipulationAdditions.h in Headers */,
+				A873AA111BB12B152415396E /* NSDictionary+MTLJSONKeyPath.h in Headers */,
+				DB4602156B7AC956FB445319 /* NSDictionary+MTLManipulationAdditions.h in Headers */,
+				183D19714F8D83AC11282FF7 /* NSDictionary+MTLMappingAdditions.h in Headers */,
+				784288FCB09CD0942417C59E /* NSError+MTLModelException.h in Headers */,
+				2DBC0678F5737682FB230568 /* NSObject+MTLComparisonAdditions.h in Headers */,
+				5A667E693A26282F2B3BB950 /* NSValueTransformer+MTLInversionAdditions.h in Headers */,
+				889F94E3FA628F79787712D8 /* NSValueTransformer+MTLPredefinedTransformerAdditions.h in Headers */,
+				8FCBF6D6B2826FE8A9355290 /* metamacros.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6DBE82CA3342E0181BFA3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC792E70BA443ECAF843C6C /* NSString+URLEncode.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05398151B8D3B62B77F8565A /* Pods-BraveClient-Mantle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34C59644A58A046A0F1FC3C9 /* Build configuration list for PBXNativeTarget "Pods-BraveClient-Mantle" */;
+			buildPhases = (
+				8D8634367DD132AE6CF6B3C7 /* Sources */,
+				0C19184B926D7466AD88AD1E /* Frameworks */,
+				BB64AB59B8EBB7376971B8EE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BraveClient-Mantle";
+			productName = "Pods-BraveClient-Mantle";
+			productReference = DB1A6F093D52630C11952248 /* libPods-BraveClient-Mantle.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		19B77BAF9856AF24DD77F3F8 /* Pods-BraveClient-CocoaLumberjack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A5414AADE4882C1DACD523 /* Build configuration list for PBXNativeTarget "Pods-BraveClient-CocoaLumberjack" */;
+			buildPhases = (
+				B7BF2291A86A46E89E956F35 /* Sources */,
+				36DD35FCFBD0D25F39137AE0 /* Frameworks */,
+				4BE38070209CBA6862498B80 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BraveClient-CocoaLumberjack";
+			productName = "Pods-BraveClient-CocoaLumberjack";
+			productReference = 04825BC6D859045DDE84D16F /* libPods-BraveClient-CocoaLumberjack.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		326EFBD61B4C2B222952BF40 /* Pods-BraveClient-DZSinglonFactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EE59D4B2E235F627D0FD520 /* Build configuration list for PBXNativeTarget "Pods-BraveClient-DZSinglonFactory" */;
+			buildPhases = (
+				3937950F9AD636523A453554 /* Sources */,
+				2D4669A1E9F1E8275738C9D4 /* Frameworks */,
+				4128792AC753BA04102ACD0C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BraveClient-DZSinglonFactory";
+			productName = "Pods-BraveClient-DZSinglonFactory";
+			productReference = A1C1398C16B4530045E36634 /* libPods-BraveClient-DZSinglonFactory.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		903AC9056C7A6F3946D4D879 /* Pods-BraveClient-DZProgrameDefines */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2E08F9E6069F8EA5031915 /* Build configuration list for PBXNativeTarget "Pods-BraveClient-DZProgrameDefines" */;
+			buildPhases = (
+				B1C0D0F51A61203FCA51E70E /* Sources */,
+				A8022540A074A79DCA282368 /* Frameworks */,
+				8EA63D89AC16B28ECBF07131 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BraveClient-DZProgrameDefines";
+			productName = "Pods-BraveClient-DZProgrameDefines";
+			productReference = 931859257AE8D431107FA9D8 /* libPods-BraveClient-DZProgrameDefines.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		988312918330E71B98B87426 /* Pods-BraveClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6EBBECCB7E7700B5C1F4A5 /* Build configuration list for PBXNativeTarget "Pods-BraveClient" */;
+			buildPhases = (
+				3388C0C397F3D4AF249EEAAA /* Sources */,
+				C2F7194ECE9B1C095A92CEFA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B67E076A03895F9724075F5 /* PBXTargetDependency */,
+				2C49605F13589074E2608DDA /* PBXTargetDependency */,
+				0A6CB1DD1137CC534D18FBE4 /* PBXTargetDependency */,
+				9BCEF233BDB3DE2ED049A639 /* PBXTargetDependency */,
+				C07BB93F3B30DD0EBAF625D7 /* PBXTargetDependency */,
+			);
+			name = "Pods-BraveClient";
+			productName = "Pods-BraveClient";
+			productReference = 8B933A546A056C753482162E /* libPods-BraveClient.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CBE3567CF39424295F4D2CA7 /* Pods-BraveClient-NSString-UrlEncode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13D65B612BCA7C9C3F902AC5 /* Build configuration list for PBXNativeTarget "Pods-BraveClient-NSString-UrlEncode" */;
+			buildPhases = (
+				05EDC76C9D72C2AE08670CD3 /* Sources */,
+				AA557C3A715A52A6281EEE27 /* Frameworks */,
+				DC6DBE82CA3342E0181BFA3F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BraveClient-NSString-UrlEncode";
+			productName = "Pods-BraveClient-NSString-UrlEncode";
+			productReference = 68B05471E4196D70E19F7A33 /* libPods-BraveClient-NSString-UrlEncode.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2824D187D5050B3B5EECD461 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 521C0BD2776E5AE5D8E18FEA /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4EF085FFA1075568C8D9A756;
+			productRefGroup = AF18629B536B31C7B3D54DE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				988312918330E71B98B87426 /* Pods-BraveClient */,
+				19B77BAF9856AF24DD77F3F8 /* Pods-BraveClient-CocoaLumberjack */,
+				903AC9056C7A6F3946D4D879 /* Pods-BraveClient-DZProgrameDefines */,
+				326EFBD61B4C2B222952BF40 /* Pods-BraveClient-DZSinglonFactory */,
+				05398151B8D3B62B77F8565A /* Pods-BraveClient-Mantle */,
+				CBE3567CF39424295F4D2CA7 /* Pods-BraveClient-NSString-UrlEncode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05EDC76C9D72C2AE08670CD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8593240F2D44A9F440A95F03 /* NSString+URLEncode.m in Sources */,
+				57635FD187DEB5BE7B428C89 /* Pods-BraveClient-NSString-UrlEncode-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3388C0C397F3D4AF249EEAAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D532325F0D1106051D574196 /* Pods-BraveClient-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3937950F9AD636523A453554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD8FDC7D52541D9A3363318D /* DZSingletonFactory.m in Sources */,
+				13B4241D2A281EC637F04C5C /* Pods-BraveClient-DZSinglonFactory-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D8634367DD132AE6CF6B3C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E64C7E0B9EB079A06850F0C /* EXTRuntimeExtensions.m in Sources */,
+				F63DD4CD8EFC896F5A5A914C /* EXTScope.m in Sources */,
+				408768AD1C25C155ABC5FEE5 /* MTLJSONAdapter.m in Sources */,
+				7304AB738D419347DBFEECF9 /* MTLModel+NSCoding.m in Sources */,
+				2CC73F081ACA1E2574BC4B92 /* MTLModel.m in Sources */,
+				D47453A7D52F996E2158F22A /* MTLReflection.m in Sources */,
+				D1564A431E390247E1AFC855 /* MTLTransformerErrorHandling.m in Sources */,
+				F6831507850413CF67D8D25F /* MTLValueTransformer.m in Sources */,
+				38348EC4766FA391D284B2A7 /* NSArray+MTLManipulationAdditions.m in Sources */,
+				4FCF7096E34EA507280C9FFD /* NSDictionary+MTLJSONKeyPath.m in Sources */,
+				6442DCA7A7F38F58662FB144 /* NSDictionary+MTLManipulationAdditions.m in Sources */,
+				BB35A40ABDBAF290184890E9 /* NSDictionary+MTLMappingAdditions.m in Sources */,
+				C47A5E18C58D29AE67C1D0DC /* NSError+MTLModelException.m in Sources */,
+				118B56C2C0A6300C3E3ADC19 /* NSObject+MTLComparisonAdditions.m in Sources */,
+				9E71E1C386D8BA6E2C5585AE /* NSValueTransformer+MTLInversionAdditions.m in Sources */,
+				234AE516D5874D1BBB63713E /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */,
+				45573EDD98F762CD2BFAF79C /* Pods-BraveClient-Mantle-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1C0D0F51A61203FCA51E70E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A1B7C2917E93DEF2BA17564 /* DZProgramDefines.m in Sources */,
+				361C72D89E9ABB03BF52F5FD /* Pods-BraveClient-DZProgrameDefines-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BF2291A86A46E89E956F35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D11AF052E97CE4B3283906 /* DDASLLogCapture.m in Sources */,
+				D44A3AABCC4CFE5177E8DCCC /* DDASLLogger.m in Sources */,
+				914AA63A6921386EC0F4ECF2 /* DDAbstractDatabaseLogger.m in Sources */,
+				8FFF7F6F270797DBE2EBC6DA /* DDContextFilterLogFormatter.m in Sources */,
+				67DE52C46CA92CA4BD05A00B /* DDDispatchQueueLogFormatter.m in Sources */,
+				FBC679BB3685BC67D103C1C5 /* DDFileLogger.m in Sources */,
+				B9CA9A2217799401599028AF /* DDLog.m in Sources */,
+				6669E6E0C0FEDCCA5DBC8AE6 /* DDMultiFormatter.m in Sources */,
+				6E166A42A3093FC3F8562D2E /* DDTTYLogger.m in Sources */,
+				6D09352C8D95E1B4C8F7A7B1 /* Pods-BraveClient-CocoaLumberjack-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A6CB1DD1137CC534D18FBE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BraveClient-DZSinglonFactory";
+			target = 326EFBD61B4C2B222952BF40 /* Pods-BraveClient-DZSinglonFactory */;
+			targetProxy = 5A316B7C596A10856A91024C /* PBXContainerItemProxy */;
+		};
+		0B67E076A03895F9724075F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BraveClient-CocoaLumberjack";
+			target = 19B77BAF9856AF24DD77F3F8 /* Pods-BraveClient-CocoaLumberjack */;
+			targetProxy = 51840AF370AD810987815FD7 /* PBXContainerItemProxy */;
+		};
+		2C49605F13589074E2608DDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BraveClient-DZProgrameDefines";
+			target = 903AC9056C7A6F3946D4D879 /* Pods-BraveClient-DZProgrameDefines */;
+			targetProxy = 835C4A5F95F3E18A7101938F /* PBXContainerItemProxy */;
+		};
+		9BCEF233BDB3DE2ED049A639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BraveClient-Mantle";
+			target = 05398151B8D3B62B77F8565A /* Pods-BraveClient-Mantle */;
+			targetProxy = BD4AD3A0126505F7828FAFC7 /* PBXContainerItemProxy */;
+		};
+		C07BB93F3B30DD0EBAF625D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BraveClient-NSString-UrlEncode";
+			target = CBE3567CF39424295F4D2CA7 /* Pods-BraveClient-NSString-UrlEncode */;
+			targetProxy = 49CC21793BB0C85A71F80E0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		118B974E64B08B2E48D7B390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93A3999C5DA1CF86FF23072F /* Pods-BraveClient-DZSinglonFactory-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-BraveClient-DZSinglonFactory/Pods-BraveClient-DZSinglonFactory-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1BFA16E87A4C55BB881D863B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 195D3446161637D27D48C45A /* Pods-BraveClient.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1C054DD94785F4F291C7A9E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		26F4C90AB9546E43B7A24AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D0F954CA45944D2E2103331 /* Pods-BraveClient-NSString-UrlEncode-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-BraveClient-NSString-UrlEncode/Pods-BraveClient-NSString-UrlEncode-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		45C8D4D94D31BFC9B7180B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A481D5D3AC401B8BA3CB22AE /* Pods-BraveClient-DZProgrameDefines-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-BraveClient-DZProgrameDefines/Pods-BraveClient-DZProgrameDefines-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		481AF57F45A66A4E27DDC158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F920EC50557F18FAC6078664 /* Pods-BraveClient.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6EC10579419C76B42FC48913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75B0FA0D76FC822220A1D309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A481D5D3AC401B8BA3CB22AE /* Pods-BraveClient-DZProgrameDefines-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-BraveClient-DZProgrameDefines/Pods-BraveClient-DZProgrameDefines-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		75B918896421B2889D76880D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3B702E9E15E426D0E754A89 /* Pods-BraveClient-CocoaLumberjack-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-BraveClient-CocoaLumberjack/Pods-BraveClient-CocoaLumberjack-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		798411BC8955D8D218316761 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D0F954CA45944D2E2103331 /* Pods-BraveClient-NSString-UrlEncode-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-BraveClient-NSString-UrlEncode/Pods-BraveClient-NSString-UrlEncode-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7CFDB9473E5EB74B4EC1ED20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3B702E9E15E426D0E754A89 /* Pods-BraveClient-CocoaLumberjack-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-BraveClient-CocoaLumberjack/Pods-BraveClient-CocoaLumberjack-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EC95D32D6CA49B9214CBF9B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7EC28132D3DD5BAF1B9DAD9 /* Pods-BraveClient-Mantle-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-BraveClient-Mantle/Pods-BraveClient-Mantle-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F8F1C95E1C6D21D56C129A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93A3999C5DA1CF86FF23072F /* Pods-BraveClient-DZSinglonFactory-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-BraveClient-DZSinglonFactory/Pods-BraveClient-DZSinglonFactory-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FB21B45D1D411D6D4AAA44E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7EC28132D3DD5BAF1B9DAD9 /* Pods-BraveClient-Mantle-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-BraveClient-Mantle/Pods-BraveClient-Mantle-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13D65B612BCA7C9C3F902AC5 /* Build configuration list for PBXNativeTarget "Pods-BraveClient-NSString-UrlEncode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798411BC8955D8D218316761 /* Debug */,
+				26F4C90AB9546E43B7A24AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34C59644A58A046A0F1FC3C9 /* Build configuration list for PBXNativeTarget "Pods-BraveClient-Mantle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC95D32D6CA49B9214CBF9B0 /* Debug */,
+				FB21B45D1D411D6D4AAA44E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EE59D4B2E235F627D0FD520 /* Build configuration list for PBXNativeTarget "Pods-BraveClient-DZSinglonFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118B974E64B08B2E48D7B390 /* Debug */,
+				F8F1C95E1C6D21D56C129A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521C0BD2776E5AE5D8E18FEA /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C054DD94785F4F291C7A9E7 /* Debug */,
+				6EC10579419C76B42FC48913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C2E08F9E6069F8EA5031915 /* Build configuration list for PBXNativeTarget "Pods-BraveClient-DZProgrameDefines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75B0FA0D76FC822220A1D309 /* Debug */,
+				45C8D4D94D31BFC9B7180B7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A5414AADE4882C1DACD523 /* Build configuration list for PBXNativeTarget "Pods-BraveClient-CocoaLumberjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75B918896421B2889D76880D /* Debug */,
+				7CFDB9473E5EB74B4EC1ED20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6EBBECCB7E7700B5C1F4A5 /* Build configuration list for PBXNativeTarget "Pods-BraveClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BFA16E87A4C55BB881D863B /* Debug */,
+				481AF57F45A66A4E27DDC158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2824D187D5050B3B5EECD461 /* Project object */;
+}

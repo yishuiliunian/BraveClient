@@ -1,0 +1,31 @@
+PODS:
+  - CocoaLumberjack (2.0.0):
+    - CocoaLumberjack/Default (= 2.0.0)
+    - CocoaLumberjack/Extensions (= 2.0.0)
+  - CocoaLumberjack/Core (2.0.0)
+  - CocoaLumberjack/Default (2.0.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.0):
+    - CocoaLumberjack/Default
+  - DZProgrameDefines (1.0.1)
+  - DZSinglonFactory (1.0.2)
+  - Mantle (2.0.2):
+    - Mantle/extobjc (= 2.0.2)
+  - Mantle/extobjc (2.0.2)
+  - NSString-UrlEncode (2.0.0)
+
+DEPENDENCIES:
+  - CocoaLumberjack
+  - DZProgrameDefines
+  - DZSinglonFactory
+  - Mantle
+  - NSString-UrlEncode
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: a6f77d987d65dc7ba86b0f84db7d0b9084f77bcb
+  DZProgrameDefines: 623dfe81da225994cbba6f1d9ba982d7f5e7f2a5
+  DZSinglonFactory: 2b43251e9dcb1053c79a7c776dff5bbe0dea602b
+  Mantle: 967fd31ea0220890b2e76589198996b534bb3fb1
+  NSString-UrlEncode: d26eb4378531911d54694733143dd493c1571f5c
+
+COCOAPODS: 0.37.2

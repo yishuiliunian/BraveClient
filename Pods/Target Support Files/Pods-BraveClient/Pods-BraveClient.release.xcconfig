@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CocoaLumberjack" "${PODS_ROOT}/Headers/Public/DZProgrameDefines" "${PODS_ROOT}/Headers/Public/DZSinglonFactory" "${PODS_ROOT}/Headers/Public/Mantle" "${PODS_ROOT}/Headers/Public/NSString-UrlEncode"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/CocoaLumberjack" -isystem "${PODS_ROOT}/Headers/Public/DZProgrameDefines" -isystem "${PODS_ROOT}/Headers/Public/DZSinglonFactory" -isystem "${PODS_ROOT}/Headers/Public/Mantle" -isystem "${PODS_ROOT}/Headers/Public/NSString-UrlEncode"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-BraveClient-CocoaLumberjack" -l"Pods-BraveClient-DZProgrameDefines" -l"Pods-BraveClient-DZSinglonFactory" -l"Pods-BraveClient-Mantle" -l"Pods-BraveClient-NSString-UrlEncode" -framework "Foundation"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods

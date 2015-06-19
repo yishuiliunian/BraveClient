@@ -7,8 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
-@interface AppDelegate ()
+#import "BAPositionAddReq.h"
+@interface AppDelegate () <MSRequestUIDelegate>
 
 @end
 
@@ -17,6 +17,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    BAPositionAddReq* req = [BAPositionAddReq new];
+    req.userName = @"aaaaa";
+    MSPerformRequestWithDelegateSelf(req);
     return YES;
 }
 

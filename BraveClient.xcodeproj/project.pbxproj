@@ -7,6 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0993069459C432FF6280A457 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		0DF22CC8022B498FC7AFF1F9 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		16637B51A8F021BCBA03BFEA /* (null) in Sources */ = {isa = PBXBuildFile; };
+		19217FEA2EF226484DFEEB14 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		1AE85138D8287B15E3D0C9F9 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		1BED6CBFA4663C7DF28F7132 /* libPods-BraveClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8F580695D05C4F5B73836C /* libPods-BraveClient.a */; };
+		2709C54A98770EBE482F562F /* BSAddDealRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D8FE74CA19FF3696325EF2 /* BSAddDealRequest.m */; };
+		451F8008424B22F503E3E35E /* __BSAddDealRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1876882528D1F33A2F7D65BE /* __BSAddDealRequest.h */; };
+		46E7997AF29C7B829E5B6980 /* __BAPositionAddReq.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B051234EB16139F5E64C432 /* __BAPositionAddReq.m */; };
+		4ADD93D136E74A59F1EE438D /* (null) in Headers */ = {isa = PBXBuildFile; };
+		51CCA9DCDC516AE83FDCA151 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		539FF28B182C53691375141C /* (null) in Sources */ = {isa = PBXBuildFile; };
+		5E33876F4AF37A6B00440162 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		600DFB1FC87E739C6F8B7D86 /* BSAddDealRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BFE05A0C49CE450D2883E11 /* BSAddDealRequest.h */; };
+		66C347B1CD9D2E98EA2C0C90 /* BSPositionAddRsp.h in Headers */ = {isa = PBXBuildFile; fileRef = D685E69307D3FBA835CC1897 /* BSPositionAddRsp.h */; };
+		6B095C180D01669A6C50D794 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		6BFA1D533B745FA4063B9CCA /* (null) in Headers */ = {isa = PBXBuildFile; };
+		6DDE61EA19747F778A19E359 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		74276AD5E401DC28E3683492 /* BSDealRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 67889174FEAE08918C60F026 /* BSDealRecord.h */; };
+		8740586E08A528F434488705 /* __BAPositionAddReq.h in Headers */ = {isa = PBXBuildFile; fileRef = BC4509A2152FF798C9059D5E /* __BAPositionAddReq.h */; };
+		9907EE8A65DA61FAF65F3A0A /* BAPositionAddReq.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D0C04423DA3E66713CABD3 /* BAPositionAddReq.m */; };
+		9963465821709CC69C50B19C /* BSPositionAddRsp.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DC2324A19C8EA1CDD87F93 /* BSPositionAddRsp.m */; };
+		A47CD2B83EFF4152724E6F38 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		ABF7540C82C39240A5A9A776 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		AE612D30F1E74F03E201A990 /* __BSAddDealRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B675F7A4033117E1FC90E81C /* __BSAddDealRequest.m */; };
+		B118E527BA8837E29F4E6A5F /* (null) in Sources */ = {isa = PBXBuildFile; };
+		B4B0867B68AAAA508F61CB08 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		C44869B1A47F64E68C1868B6 /* BAPositionAddReq.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CACCAE68C5B4A2B726ACF1 /* BAPositionAddReq.h */; };
+		C94DBB118BC8580091559D7E /* (null) in Sources */ = {isa = PBXBuildFile; };
+		D212DDA0512E4D0CBFF99100 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		D22C71B66F07BE97FF58A112 /* BSDealRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 207371288C020385E9EC0E7A /* BSDealRecord.m */; };
+		E123CFBF1B3117E700F159BF /* MSRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E123CFAF1B3117E700F159BF /* MSRequest.h */; };
+		E123CFC01B3117E700F159BF /* MSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E123CFB01B3117E700F159BF /* MSRequest.m */; };
+		E123CFC11B3117E700F159BF /* MSRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E123CFB11B3117E700F159BF /* MSRequestOperation.h */; };
+		E123CFC21B3117E700F159BF /* MSRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E123CFB21B3117E700F159BF /* MSRequestOperation.m */; };
+		E123CFC31B3117E700F159BF /* MSRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = E123CFB31B3117E700F159BF /* MSRouter.h */; };
+		E123CFC41B3117E700F159BF /* MSRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = E123CFB41B3117E700F159BF /* MSRouter.m */; };
+		E123CFC51B3117E700F159BF /* MSSyncCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = E123CFB51B3117E700F159BF /* MSSyncCenter.h */; };
+		E123CFC61B3117E700F159BF /* MSSyncCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E123CFB61B3117E700F159BF /* MSSyncCenter.m */; };
+		E123CFC71B3117E700F159BF /* MSToken.h in Headers */ = {isa = PBXBuildFile; fileRef = E123CFB71B3117E700F159BF /* MSToken.h */; };
+		E123CFC81B3117E700F159BF /* MSToken.m in Sources */ = {isa = PBXBuildFile; fileRef = E123CFB81B3117E700F159BF /* MSToken.m */; };
+		E123CFC91B3117E700F159BF /* MSTokenManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E123CFB91B3117E700F159BF /* MSTokenManager.h */; };
+		E123CFCA1B3117E700F159BF /* MSTokenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E123CFBA1B3117E700F159BF /* MSTokenManager.m */; };
+		E123CFCB1B3117E700F159BF /* MSVerifyAuthorRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E123CFBB1B3117E700F159BF /* MSVerifyAuthorRequest.h */; };
+		E123CFCC1B3117E700F159BF /* MSVerifyAuthorRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E123CFBC1B3117E700F159BF /* MSVerifyAuthorRequest.m */; };
+		E123CFCD1B3117E700F159BF /* NSValueTransformer+NSString.h in Headers */ = {isa = PBXBuildFile; fileRef = E123CFBD1B3117E700F159BF /* NSValueTransformer+NSString.h */; };
+		E123CFCE1B3117E700F159BF /* NSValueTransformer+NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = E123CFBE1B3117E700F159BF /* NSValueTransformer+NSString.m */; };
+		E123CFD21B3119C100F159BF /* MSError.h in Headers */ = {isa = PBXBuildFile; fileRef = E123CFD01B3119C100F159BF /* MSError.h */; };
+		E123CFD31B3119C100F159BF /* MSError.m in Sources */ = {isa = PBXBuildFile; fileRef = E123CFD11B3119C100F159BF /* MSError.m */; };
+		E123CFDA1B3136B200F159BF /* MSLog.h in Headers */ = {isa = PBXBuildFile; fileRef = E123CFD81B3136B200F159BF /* MSLog.h */; };
+		E123CFDB1B3136B200F159BF /* MSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = E123CFD91B3136B200F159BF /* MSLog.m */; };
 		E19B3B091B310BCA008CBA6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E19B3B081B310BCA008CBA6F /* main.m */; };
 		E19B3B0C1B310BCA008CBA6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E19B3B0B1B310BCA008CBA6F /* AppDelegate.m */; };
 		E19B3B0F1B310BCA008CBA6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E19B3B0E1B310BCA008CBA6F /* ViewController.m */; };
@@ -14,6 +65,8 @@
 		E19B3B141B310BCA008CBA6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E19B3B131B310BCA008CBA6F /* Images.xcassets */; };
 		E19B3B171B310BCA008CBA6F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E19B3B151B310BCA008CBA6F /* LaunchScreen.xib */; };
 		E19B3B231B310BCA008CBA6F /* BraveClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E19B3B221B310BCA008CBA6F /* BraveClientTests.m */; };
+		EA44DCA12439649E2EB43449 /* (null) in Headers */ = {isa = PBXBuildFile; };
+		F2EE24810F8FA58E7C85FFB6 /* (null) in Sources */ = {isa = PBXBuildFile; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +80,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BFE05A0C49CE450D2883E11 /* BSAddDealRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSAddDealRequest.h; path = Classes/Network/GenProtocols/BSAddDealRequest.h; sourceTree = "<group>"; };
+		1876882528D1F33A2F7D65BE /* __BSAddDealRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = __BSAddDealRequest.h; path = Classes/Network/GenRequest/__BSAddDealRequest.h; sourceTree = "<group>"; };
+		207371288C020385E9EC0E7A /* BSDealRecord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSDealRecord.m; path = Classes/Models/ProtocolModels/GenModels/BSDealRecord.m; sourceTree = "<group>"; };
+		2B051234EB16139F5E64C432 /* __BAPositionAddReq.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = __BAPositionAddReq.m; path = Classes/Network/GenRequest/__BAPositionAddReq.m; sourceTree = "<group>"; };
+		67889174FEAE08918C60F026 /* BSDealRecord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSDealRecord.h; path = Classes/Models/ProtocolModels/GenModels/BSDealRecord.h; sourceTree = "<group>"; };
+		6EE83433597F7009EF227D2D /* Pods-BraveClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BraveClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-BraveClient/Pods-BraveClient.release.xcconfig"; sourceTree = "<group>"; };
+		7A8F580695D05C4F5B73836C /* libPods-BraveClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BraveClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90C53C9812CF62F7DD6DA743 /* Pods-BraveClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BraveClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BraveClient/Pods-BraveClient.debug.xcconfig"; sourceTree = "<group>"; };
+		92CACCAE68C5B4A2B726ACF1 /* BAPositionAddReq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BAPositionAddReq.h; path = Classes/Network/GenProtocols/BAPositionAddReq.h; sourceTree = "<group>"; };
+		A5D8FE74CA19FF3696325EF2 /* BSAddDealRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSAddDealRequest.m; path = Classes/Network/GenProtocols/BSAddDealRequest.m; sourceTree = "<group>"; };
+		B675F7A4033117E1FC90E81C /* __BSAddDealRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = __BSAddDealRequest.m; path = Classes/Network/GenRequest/__BSAddDealRequest.m; sourceTree = "<group>"; };
+		BC4509A2152FF798C9059D5E /* __BAPositionAddReq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = __BAPositionAddReq.h; path = Classes/Network/GenRequest/__BAPositionAddReq.h; sourceTree = "<group>"; };
+		D2D0C04423DA3E66713CABD3 /* BAPositionAddReq.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BAPositionAddReq.m; path = Classes/Network/GenProtocols/BAPositionAddReq.m; sourceTree = "<group>"; };
+		D685E69307D3FBA835CC1897 /* BSPositionAddRsp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BSPositionAddRsp.h; path = Classes/Models/ProtocolModels/GenModels/BSPositionAddRsp.h; sourceTree = "<group>"; };
+		E123CFAF1B3117E700F159BF /* MSRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRequest.h; sourceTree = "<group>"; };
+		E123CFB01B3117E700F159BF /* MSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSRequest.m; sourceTree = "<group>"; };
+		E123CFB11B3117E700F159BF /* MSRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRequestOperation.h; sourceTree = "<group>"; };
+		E123CFB21B3117E700F159BF /* MSRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSRequestOperation.m; sourceTree = "<group>"; };
+		E123CFB31B3117E700F159BF /* MSRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSRouter.h; sourceTree = "<group>"; };
+		E123CFB41B3117E700F159BF /* MSRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSRouter.m; sourceTree = "<group>"; };
+		E123CFB51B3117E700F159BF /* MSSyncCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSyncCenter.h; sourceTree = "<group>"; };
+		E123CFB61B3117E700F159BF /* MSSyncCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSyncCenter.m; sourceTree = "<group>"; };
+		E123CFB71B3117E700F159BF /* MSToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSToken.h; sourceTree = "<group>"; };
+		E123CFB81B3117E700F159BF /* MSToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSToken.m; sourceTree = "<group>"; };
+		E123CFB91B3117E700F159BF /* MSTokenManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTokenManager.h; sourceTree = "<group>"; };
+		E123CFBA1B3117E700F159BF /* MSTokenManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTokenManager.m; sourceTree = "<group>"; };
+		E123CFBB1B3117E700F159BF /* MSVerifyAuthorRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSVerifyAuthorRequest.h; sourceTree = "<group>"; };
+		E123CFBC1B3117E700F159BF /* MSVerifyAuthorRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSVerifyAuthorRequest.m; sourceTree = "<group>"; };
+		E123CFBD1B3117E700F159BF /* NSValueTransformer+NSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValueTransformer+NSString.h"; sourceTree = "<group>"; };
+		E123CFBE1B3117E700F159BF /* NSValueTransformer+NSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValueTransformer+NSString.m"; sourceTree = "<group>"; };
+		E123CFD01B3119C100F159BF /* MSError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSError.h; sourceTree = "<group>"; };
+		E123CFD11B3119C100F159BF /* MSError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSError.m; sourceTree = "<group>"; };
+		E123CFD81B3136B200F159BF /* MSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSLog.h; sourceTree = "<group>"; };
+		E123CFD91B3136B200F159BF /* MSLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSLog.m; sourceTree = "<group>"; };
 		E19B3B031B310BCA008CBA6F /* BraveClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BraveClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E19B3B071B310BCA008CBA6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E19B3B081B310BCA008CBA6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +127,7 @@
 		E19B3B1C1B310BCA008CBA6F /* BraveClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BraveClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E19B3B211B310BCA008CBA6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E19B3B221B310BCA008CBA6F /* BraveClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BraveClientTests.m; sourceTree = "<group>"; };
+		E2DC2324A19C8EA1CDD87F93 /* BSPositionAddRsp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BSPositionAddRsp.m; path = Classes/Models/ProtocolModels/GenModels/BSPositionAddRsp.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BED6CBFA4663C7DF28F7132 /* libPods-BraveClient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +149,116 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AEED90C9D4CA4175ABFCA3B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9B4554C2A778CDFD0297168A /* Network */,
+				42517DC51FB76FBFD7F9AD1E /* Models */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1D1F4982D1C85C80B444C13A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90C53C9812CF62F7DD6DA743 /* Pods-BraveClient.debug.xcconfig */,
+				6EE83433597F7009EF227D2D /* Pods-BraveClient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		25D691D86569D509B9D72B9F /* ProtocolModels */ = {
+			isa = PBXGroup;
+			children = (
+				F127430C3034357F091E436C /* GenModels */,
+			);
+			name = ProtocolModels;
+			sourceTree = "<group>";
+		};
+		376752E970FDBCF50ED0E4BA /* GenRequest */ = {
+			isa = PBXGroup;
+			children = (
+				BC4509A2152FF798C9059D5E /* __BAPositionAddReq.h */,
+				2B051234EB16139F5E64C432 /* __BAPositionAddReq.m */,
+				1876882528D1F33A2F7D65BE /* __BSAddDealRequest.h */,
+				B675F7A4033117E1FC90E81C /* __BSAddDealRequest.m */,
+			);
+			name = GenRequest;
+			sourceTree = "<group>";
+		};
+		42517DC51FB76FBFD7F9AD1E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				25D691D86569D509B9D72B9F /* ProtocolModels */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9B4554C2A778CDFD0297168A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E123CFAE1B3117E700F159BF /* Base */,
+				376752E970FDBCF50ED0E4BA /* GenRequest */,
+				A95695D8FAC68818E701C700 /* GenProtocols */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		A95695D8FAC68818E701C700 /* GenProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				92CACCAE68C5B4A2B726ACF1 /* BAPositionAddReq.h */,
+				D2D0C04423DA3E66713CABD3 /* BAPositionAddReq.m */,
+				0BFE05A0C49CE450D2883E11 /* BSAddDealRequest.h */,
+				A5D8FE74CA19FF3696325EF2 /* BSAddDealRequest.m */,
+			);
+			name = GenProtocols;
+			sourceTree = "<group>";
+		};
+		B80F0DFF92CA175707EBF10B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A8F580695D05C4F5B73836C /* libPods-BraveClient.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E123CFAE1B3117E700F159BF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E123CFD81B3136B200F159BF /* MSLog.h */,
+				E123CFD91B3136B200F159BF /* MSLog.m */,
+				E123CFAF1B3117E700F159BF /* MSRequest.h */,
+				E123CFB01B3117E700F159BF /* MSRequest.m */,
+				E123CFB11B3117E700F159BF /* MSRequestOperation.h */,
+				E123CFB21B3117E700F159BF /* MSRequestOperation.m */,
+				E123CFB31B3117E700F159BF /* MSRouter.h */,
+				E123CFB41B3117E700F159BF /* MSRouter.m */,
+				E123CFB51B3117E700F159BF /* MSSyncCenter.h */,
+				E123CFB61B3117E700F159BF /* MSSyncCenter.m */,
+				E123CFB71B3117E700F159BF /* MSToken.h */,
+				E123CFB81B3117E700F159BF /* MSToken.m */,
+				E123CFB91B3117E700F159BF /* MSTokenManager.h */,
+				E123CFBA1B3117E700F159BF /* MSTokenManager.m */,
+				E123CFBB1B3117E700F159BF /* MSVerifyAuthorRequest.h */,
+				E123CFBC1B3117E700F159BF /* MSVerifyAuthorRequest.m */,
+				E123CFBD1B3117E700F159BF /* NSValueTransformer+NSString.h */,
+				E123CFBE1B3117E700F159BF /* NSValueTransformer+NSString.m */,
+				E123CFD01B3119C100F159BF /* MSError.h */,
+				E123CFD11B3119C100F159BF /* MSError.m */,
+			);
+			name = Base;
+			path = Classes/Network/Base;
+			sourceTree = "<group>";
+		};
 		E19B3AFA1B310BCA008CBA6F = {
 			isa = PBXGroup;
 			children = (
 				E19B3B051B310BCA008CBA6F /* BraveClient */,
 				E19B3B1F1B310BCA008CBA6F /* BraveClientTests */,
 				E19B3B041B310BCA008CBA6F /* Products */,
+				1D1F4982D1C85C80B444C13A /* Pods */,
+				B80F0DFF92CA175707EBF10B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +274,7 @@
 		E19B3B051B310BCA008CBA6F /* BraveClient */ = {
 			isa = PBXGroup;
 			children = (
+				1AEED90C9D4CA4175ABFCA3B /* Classes */,
 				E19B3B0A1B310BCA008CBA6F /* AppDelegate.h */,
 				E19B3B0B1B310BCA008CBA6F /* AppDelegate.m */,
 				E19B3B0D1B310BCA008CBA6F /* ViewController.h */,
@@ -119,16 +313,66 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F127430C3034357F091E436C /* GenModels */ = {
+			isa = PBXGroup;
+			children = (
+				67889174FEAE08918C60F026 /* BSDealRecord.h */,
+				207371288C020385E9EC0E7A /* BSDealRecord.m */,
+				D685E69307D3FBA835CC1897 /* BSPositionAddRsp.h */,
+				E2DC2324A19C8EA1CDD87F93 /* BSPositionAddRsp.m */,
+			);
+			name = GenModels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		385852CEC0501B084C66078C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E123CFC91B3117E700F159BF /* MSTokenManager.h in Headers */,
+				E123CFD21B3119C100F159BF /* MSError.h in Headers */,
+				E123CFBF1B3117E700F159BF /* MSRequest.h in Headers */,
+				E123CFC31B3117E700F159BF /* MSRouter.h in Headers */,
+				E123CFC11B3117E700F159BF /* MSRequestOperation.h in Headers */,
+				E123CFCD1B3117E700F159BF /* NSValueTransformer+NSString.h in Headers */,
+				19217FEA2EF226484DFEEB14 /* (null) in Headers */,
+				E123CFC71B3117E700F159BF /* MSToken.h in Headers */,
+				E123CFCB1B3117E700F159BF /* MSVerifyAuthorRequest.h in Headers */,
+				E123CFC51B3117E700F159BF /* MSSyncCenter.h in Headers */,
+				E123CFDA1B3136B200F159BF /* MSLog.h in Headers */,
+				0DF22CC8022B498FC7AFF1F9 /* (null) in Headers */,
+				ABF7540C82C39240A5A9A776 /* (null) in Headers */,
+				6DDE61EA19747F778A19E359 /* (null) in Headers */,
+				EA44DCA12439649E2EB43449 /* (null) in Headers */,
+				A47CD2B83EFF4152724E6F38 /* (null) in Headers */,
+				6B095C180D01669A6C50D794 /* (null) in Headers */,
+				4ADD93D136E74A59F1EE438D /* (null) in Headers */,
+				5E33876F4AF37A6B00440162 /* (null) in Headers */,
+				6BFA1D533B745FA4063B9CCA /* (null) in Headers */,
+				74276AD5E401DC28E3683492 /* BSDealRecord.h in Headers */,
+				66C347B1CD9D2E98EA2C0C90 /* BSPositionAddRsp.h in Headers */,
+				8740586E08A528F434488705 /* __BAPositionAddReq.h in Headers */,
+				451F8008424B22F503E3E35E /* __BSAddDealRequest.h in Headers */,
+				C44869B1A47F64E68C1868B6 /* BAPositionAddReq.h in Headers */,
+				600DFB1FC87E739C6F8B7D86 /* BSAddDealRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		E19B3B021B310BCA008CBA6F /* BraveClient */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E19B3B261B310BCA008CBA6F /* Build configuration list for PBXNativeTarget "BraveClient" */;
 			buildPhases = (
+				42283D73A9FCF19FF1AEB90D /* Check Pods Manifest.lock */,
 				E19B3AFF1B310BCA008CBA6F /* Sources */,
 				E19B3B001B310BCA008CBA6F /* Frameworks */,
 				E19B3B011B310BCA008CBA6F /* Resources */,
+				8C34720C847C135FF3E2B9B8 /* Copy Pods Resources */,
+				385852CEC0501B084C66078C /* Headers */,
 			);
 			buildRules = (
 			);
@@ -214,14 +458,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		42283D73A9FCF19FF1AEB90D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C34720C847C135FF3E2B9B8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BraveClient/Pods-BraveClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E19B3AFF1B310BCA008CBA6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E123CFD31B3119C100F159BF /* MSError.m in Sources */,
 				E19B3B0F1B310BCA008CBA6F /* ViewController.m in Sources */,
+				E123CFCA1B3117E700F159BF /* MSTokenManager.m in Sources */,
 				E19B3B0C1B310BCA008CBA6F /* AppDelegate.m in Sources */,
+				E123CFCC1B3117E700F159BF /* MSVerifyAuthorRequest.m in Sources */,
+				E123CFCE1B3117E700F159BF /* NSValueTransformer+NSString.m in Sources */,
 				E19B3B091B310BCA008CBA6F /* main.m in Sources */,
+				E123CFC01B3117E700F159BF /* MSRequest.m in Sources */,
+				E123CFDB1B3136B200F159BF /* MSLog.m in Sources */,
+				E123CFC41B3117E700F159BF /* MSRouter.m in Sources */,
+				1AE85138D8287B15E3D0C9F9 /* (null) in Sources */,
+				E123CFC21B3117E700F159BF /* MSRequestOperation.m in Sources */,
+				E123CFC81B3117E700F159BF /* MSToken.m in Sources */,
+				E123CFC61B3117E700F159BF /* MSSyncCenter.m in Sources */,
+				539FF28B182C53691375141C /* (null) in Sources */,
+				B118E527BA8837E29F4E6A5F /* (null) in Sources */,
+				0993069459C432FF6280A457 /* (null) in Sources */,
+				D212DDA0512E4D0CBFF99100 /* (null) in Sources */,
+				B4B0867B68AAAA508F61CB08 /* (null) in Sources */,
+				51CCA9DCDC516AE83FDCA151 /* (null) in Sources */,
+				F2EE24810F8FA58E7C85FFB6 /* (null) in Sources */,
+				C94DBB118BC8580091559D7E /* (null) in Sources */,
+				16637B51A8F021BCBA03BFEA /* (null) in Sources */,
+				D22C71B66F07BE97FF58A112 /* BSDealRecord.m in Sources */,
+				9963465821709CC69C50B19C /* BSPositionAddRsp.m in Sources */,
+				46E7997AF29C7B829E5B6980 /* __BAPositionAddReq.m in Sources */,
+				AE612D30F1E74F03E201A990 /* __BSAddDealRequest.m in Sources */,
+				9907EE8A65DA61FAF65F3A0A /* BAPositionAddReq.m in Sources */,
+				2709C54A98770EBE482F562F /* BSAddDealRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +648,7 @@
 		};
 		E19B3B271B310BCA008CBA6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90C53C9812CF62F7DD6DA743 /* Pods-BraveClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BraveClient/Info.plist;
@@ -355,6 +659,7 @@
 		};
 		E19B3B281B310BCA008CBA6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EE83433597F7009EF227D2D /* Pods-BraveClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BraveClient/Info.plist;
@@ -416,6 +721,7 @@
 				E19B3B281B310BCA008CBA6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E19B3B291B310BCA008CBA6F /* Build configuration list for PBXNativeTarget "BraveClientTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +730,7 @@
 				E19B3B2B1B310BCA008CBA6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
